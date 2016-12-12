@@ -154,9 +154,10 @@ def entry():
             if (args.inputtext != None):
                 username = ((lines[x]).split(":"))[0]
                 args.password = ((lines[x]).split(":"))[1]
+                email = ((lines[x]).split(":"))[2]
             try:
                 try:
-                    account_info = pikaptcha.random_account(username, args.password, args.email, args.birthday, args.plusmail, args.recaptcha, args.captchatimeout)
+                    account_info = pikaptcha.random_account(username, args.password, email, args.birthday, args.plusmail, args.recaptcha, args.captchatimeout)
                     
                     print('  Username:  {}'.format(account_info["username"]))
                     print('  Password:  {}'.format(account_info["password"]))
