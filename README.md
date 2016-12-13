@@ -1,5 +1,5 @@
 ####
-Quick and dirty revison for catch all email.  See Example 16 below.  Works with 2Captcha; however, emails must be manually verified.  Hope to fix this soon.
+Quick and dirty revison for catch all email.  See Example 16 below.  Works with 2Captcha.  I use my gmail as my catch all email and the email verification works.
 ####
 
 # Pikaptcha
@@ -251,6 +251,10 @@ james:passn:email3@email.com
 ```
 ```
 pikaptcha -it C:\user\sri\desktop\inputaccs.txt
+
+OR
+
+pikaptcha -px XXX.XXX.XXX.XXX:XXXX -r XXXXXXXXXXXXXXX -it C:\user\sri\desktop\inputaccs.txt -m myemail@gmail.com -av True -gp gmailpass
 ```
 
 Example 17 : Use public proxy when accepting the Terms of Services.
