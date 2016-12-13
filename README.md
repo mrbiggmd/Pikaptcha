@@ -1,3 +1,7 @@
+####
+Quick and dirty revison for catch all email.  See Example 16 below.  Works with 2Captcha; however, emails must be manually verified.  Hope to fix this soon.
+####
+
 # Pikaptcha
 **I am currently in the process of moving so development is going to be very slow for the next few days. A GUI is almost in place that will account for most of the user input errors. **
 
