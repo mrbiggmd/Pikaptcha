@@ -239,11 +239,11 @@ Example 15 : If it takes longer than 40 seconds to solve captcha, cancel the req
 pikaptcha -ct 40 -r %YOUR_2CAPTCHA_KEY%
 ```
 
-Example 16 : Read user:pass from a file. It should be formatted like so
+Example 16 : Catch all email example.  Read user:pass:email from a file. It should be formatted like so
 ```
-mark:pass1
-jacob:pass2
-james:passn
+mark:pass1:email1@email.com
+jacob:pass2:email2@email.com
+james:passn:email3@email.com
 ```
 ```
 pikaptcha -it C:\user\sri\desktop\inputaccs.txt
